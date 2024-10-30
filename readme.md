@@ -6,7 +6,7 @@ This repository holds YAML files that can generate conda environments that can b
 
 ## In brief
 
-Conda is a package manager that allows you to automatically install packages. 
+[Conda](https://docs.conda.io/projects/conda/en/stable/) is a package manager that allows you to automatically install packages. 
 To set up a conda environment from a YAML file in this repository, install conda and download the YAML files (either clone this repository or manually download it first), and run
 
 ```conda env create -f <filename>.yaml -n <myname>```
