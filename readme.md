@@ -2,16 +2,18 @@
 
 ## Purpose of this repository
 
-This repository simply holds a few YAML files that can generate conda environments that can be used to run my code.
+This repository holds YAML files that can generate conda environments that can be used to run my code.
 
 ## In brief
 
-To set up a conda environment from a YAML file in this repository, download the YAML files (either clone this repository or manually download it first), and run
+Conda is a package manager that allows you to automatically install packages. 
+To set up a conda environment from a YAML file in this repository, install conda and download the YAML files (either clone this repository or manually download it first), and run
 
 ```conda env create -f <filename>.yaml -n <myname>```
 
 which will create a YAML file from the YAML file called `<filename>.yaml` with the name `<myname>`.
-This requires that you have Conda installed and now how to use Conda. See below for more details.
+
+See below for more details.
 
 ## More explanation
 
