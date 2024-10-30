@@ -1,6 +1,6 @@
 
 
-# Setting up Conda environments
+## Purpose of this repository
 
 This repository simply holds a few YAML files that can generate conda environments that can be used to run my code.
 
