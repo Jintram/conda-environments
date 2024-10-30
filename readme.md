@@ -15,7 +15,7 @@ which will create a YAML file from the YAML file called `<filename>.yaml` with t
 
 See below for more details.
 
-## More explanation
+## More detailed background and explanation
 
 ### Libraries and dependencies 
 To run scripts, you often depend on libraries or packages -- a collection of code written by someone else. Often, these packages have dependencies. For example, you need library A and B, but library A also requires library C and D to run. In turn, library D might even need libraries E and F, and so on. Unfortunately, sometimes a problem comes up. For example, you now need library X for a specific task. But library X requires version 1.23 of library B, whilst library A requires version 3.21 of library B. So now, you can't install library A and X together.
