@@ -29,6 +29,23 @@ You can choose between anaconda and miniconda. Anaconda comes with many things p
 
 To install anaconda or miniconda, see https://docs.anaconda.com/anaconda/install/, where you can click a "download" button at the top. (You can skip email registration if you want.) By scrolling down, you can choose between anaconda or miniconda. 
 
+#### Installing miniconda easily
+
+See: https://docs.anaconda.com/miniconda/install/#quick-command-line-install
+
+Mamba, a much faster implementation of conda, which has exactly the same functionalities (just replace `conda` in your commands with `mamba`), can be installed using https://anaconda.org/conda-forge/mamba. Conda should however nowadays use mamba libraries per default (see e.g. https://www.reddit.com/r/Python/comments/1ae2xie/conda_now_uses_libmamba_by_default/?rdt=33453).
+
+#### A note about anaconda
+
+It's unclear whether Anaconda can be used for free at academic institutes;
+See: https://www.cdotrends.com/story/4173/anaconda-threatens-legal-action-over-licensing-terms
+Conda supposedly is free.
+
+See also:
+https://www.anaconda.com/blog/update-on-anacondas-terms-of-service-for-academia-and-research
+
+TO DO: Check this information properly.
+
 ### Setting up an environment
 
 See https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html on how to create and manage environments. 
@@ -55,3 +72,6 @@ will set up the environment 2024_FLIM. The name of this environment is determine
 
 which will set up an environment called my_FLIM_environment, using information from the `2024_FLIM.yaml` file.
 
+# Notes about some of these environments
+
+- 2024_FLIM is an environment which ran FLIM-related python modules on my old machine. I exported the conda file to 2024_FLIM.yaml. However, running `conda env create -f 2024_FLIM.yaml` didn't work, as not all packages were available any more. I therefor created `2024_FLIMb.yaml`, which has version specifications removed, and some packages removed.
